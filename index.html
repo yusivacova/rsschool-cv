@@ -7,17 +7,224 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="img/avatar.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&display=swap" rel="stylesheet">
   <title>CV Sivacova Yulia</title>
 </head>
 
 <body>
   <div class="wrapper">
     <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#profile" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contacts" class="nav__link">Contacts</a>
+            </li>
+            <li class="nav__item">
+              <a href="#languages" class="nav__link">Languages</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about-me" class="nav__link">About me</a>
+            </li>
+            <li class="nav__item">
+              <a href="#education" class="nav__link">Education</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#code-example" class="nav__link">Code example</a>
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">Projects</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main class="content">
+      <div class="container">
+        <div class="content__body">
+          <div class="content__block1">
+            <section class="profile" id="profile">
+              <div class="profile__body">
+                <div class="profile__image">
+                  <img src="img/photo-main.jpg" alt="Profile photo - Sivacova Yulia">
+                </div>
+                <div class="profile__main">
+                  <h1 class="profile__title">Sivacova Yulia</h1>
+                  <h2 class="profile_subtitle">Frontend developer</h2>
+                </div>
+              </div>
+            </section>
+            <section class="contacts" id="contancts">
+              <div class="contacts__body">
+                <h3 class="contacts__title">Contact information</h3>
+                <ul class="contacts__list">
+                  <li class="contects__item">
+                    <div class="contacts__icon">
+                      <img src="img/icon-mail.png" alt="Icon e-mail">
+                    </div>
+                    <div class="contacts__text">
+                      <p class="contacts__name">E-mail:</p>
+                      <a href="mailto:sivacovayulia@gmail.com" class="contacts__link">sivacovayulia@gmail.com</a>
+                    </div>
+                  </li>
+                  <li class="contects__item">
+                    <div class="contacts__icon">
+                      <img src="img/icon-telegram.png" alt="Icon telegram">
+                    </div>
+                    <div class="contacts__text">
+                      <p class="contacts__name">Telegram:</p>
+                      <a href="https://t.me/yusivacova" target="_blank" class="contacts__link">@yusivacova</a>
+                    </div>
+                  </li>
+                  <li class="contects__item">
+                    <div class="contacts__icon">
+                      <img src="img/icon-github.png" alt="Icon github">
+                    </div>
+                    <div class="contacts__text">
+                      <p class="contacts__name">GitHub:</p>
+                      <a href="https://github.com/yusivacova" target="_blank" class="contacts__link">yusivacova</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </section>
+            <section class="languages" id="languages">
+              <div class="languages__body">
+                <h3 class="languages__title">Languages</h3>
+                <ul class="languages__list">
+                  <li class="languages__item">
+                    <div class="languages__icon">
+                      <img src="img/russian-icon.png" alt="Russian flag icon">
+                    </div>
+                    <div class="languages__text">Russian (native speaker)</div>
+                  </li>
+                  <li class="languages__item">
+                    <div class="languages__icon">
+                      <img src="img/english-icon.png" alt="English flag icon">
+                    </div>
+                    <div class="languages__text">English (A2)</div>
+                  </li>
+                </ul>
+              </div>
+            </section>
+          </div>
+          <div class="content__block2">
+            <section class="about-me" id="about-me">
+              <div class="about-me__body">
+                <h2 class="about-me__title">About me</h2>
+                <p class="about-me__text">I am very enthusiastic about learning the profession of a frontend developer. My goal
+                  is to become a qualified
+                  specialist capable of creating modern, user-friendly and functional web interfaces. My priority is the
+                  continuous
+                  development and deepening of knowledge in the field of frontend technologies, as well as participation in real
+                  projects
+                  where I can put the acquired skills into practice. I have an analytical mindset, attention to detail, the
+                  ability to
+                  learn quickly, creative thinking, perseverance. I previously worked in the field of law, where I gained
+                  experience
+                  working in a team, solving problems, and communicating with clients. This experience, I am sure, will help me
+                  to
+                  interact effectively with colleagues and successfully solve tasks.</p>
+              </div>
+            </section>
+            <section class="education" id="education">
+              <div class="education__body">
+                <h2 class="education__title">My education</h2>
+                <ul class="education__list">
+                  <li class="education__item">Law College Belarusian State University</li>
+                  <li class="education__item">Faculty of Law Belarusian State University</li>
+                </ul>
+              </div>
+            </section>
+            <section class="skills" id="skills">
+              <div class="skills__body">
+                <h2 class="skills__title">My skills</h2>
+                <div class="skills__content">
+                  <div class="skills__name">
+                    <div class="skills__icon">
+                      <img src="img/skobs-icon.png" alt="Skobs icon">
+                    </div>
+                    <p class="skills__text">Development</p>
+                  </div>
+                  <ul class="skills__list">
+                    <li class="skills__item">HTML</li>
+                    <li class="skills__item">CSS</li>
+                    <li class="skills__item">JavaScript</li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+            <section class="code-example" id="code-example">
+              <div class="code-example__body">
+                <h2 class="code-example__title">Code example</h2>
+                <div class="code-example__content">
+                  <pre>
+                          <code>
+         function multiply(a, b) {
+          return a * b
+        }
+                          </code>
+                        </pre>
+                </div>
+              </div>
+            </section>
+            <section class="projects" id="projects">
+              <div class="projects__body">
+                <div class="projects__title">Projects</div>
+                <ul class="projects__list">
+                  <li class="projects__item">
+                    <a href="https://rolling-scopes-school.github.io/yusivacova-JSFEPRESCHOOL2022Q4/momentum/" target="_blank"
+                      class="projects__link">
+                      <img src="img/projects-momentum.png" alt="">
+                    </a>
+                  </li>
+                  <li class="projects__item">
+                    <a href="https://rolling-scopes-school.github.io/yusivacova-JSFEPRESCHOOL2022Q4/plants/" target="_blank"
+                      class="projects__link">
+                      <img src="img/projects-plants.png" alt="">
+                    </a>
+                  </li>
+                  <li class="projects__item">
+                    <a href="https://rolling-scopes-school.github.io/yusivacova-JSFE2023Q1/shelter/main.html" target="_blank"
+                      class="projects__link">
+                      <img src="img/projects-heltor.png" alt="">
+                    </a>
+                  </li>
+                  <li class="projects__item">
+                    <a href="https://rolling-scopes-school.github.io/yusivacova-JSFE2023Q1/rs-css/" target="_blank"
+                      class="projects__link">
+                      <img src="img/projects-selectors.png" alt="">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
     </main>
     <footer class="footer">
+      <div class="container">
+        <div class="footer__info">
+          <a href="https://github.com/yusivacova" target="_blank" class="footer__github">
+            <img src="img/icon-github.png" alt="Icon github">
+          </a>
+          <small class="footer__text">&copy; 2026 Minsk</small>
+          <a href="https://wearecommunity.io/events/js-stage1-2026q3" target="_blank" class="footer__rs">
+            <img src="img/rs_school-logo.svg" alt="logo RS School">
+          </a>
+        </div>
+      </div>
     </footer>
   </div>
 </body>
+
 </html>
